@@ -892,6 +892,13 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
+"@babel/runtime@7.1.2":
+  version "7.1.2"
+  resolved "https://registry.npmmirror.com/@babel/runtime/-/runtime-7.1.2.tgz#81c89935f4647706fc54541145e6b4ecfef4b8e3"
+  integrity sha512-Y3SCjmhSupzFB6wcv1KmmFucH6gDVnI30WjOcicV10ju0cZjak3Jcs67YLIXBrmZYw1xCrVeJPbycFwrqNyxpg==
+  dependencies:
+    regenerator-runtime "^0.12.0"
+
 "@babel/runtime@^7.11.0", "@babel/runtime@^7.8.4":
   version "7.17.2"
   resolved "https://registry.npmmirror.com/@babel/runtime/-/runtime-7.17.2.tgz#66f68591605e59da47523c631416b18508779941"
@@ -931,6 +938,21 @@
   dependencies:
     "@babel/helper-validator-identifier" "^7.16.7"
     to-fast-properties "^2.0.0"
+
+"@cornerstonejs/codec-charls@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.npmmirror.com/@cornerstonejs/codec-charls/-/codec-charls-0.1.1.tgz#e55d4aa908732d0cc902888b7f3856c5a996df7f"
+  integrity sha512-Y250DGVzmownJ7WgpHxNqWvfTnv4/malaKm/tWm0xE1FxhQE8iErMWFpKxpNDk3MdfXO4/98piVsUwmJMiWoDQ==
+
+"@cornerstonejs/codec-libjpeg-turbo-8bit@^0.0.7":
+  version "0.0.7"
+  resolved "https://registry.npmmirror.com/@cornerstonejs/codec-libjpeg-turbo-8bit/-/codec-libjpeg-turbo-8bit-0.0.7.tgz#2ea9b575eed19e6e7e3701b7a50a4ae0ffbef0c4"
+  integrity sha512-qgm6BuVAy5mNP8SJ+A6+VbmPnqgj8jPvJrw4HbUoAzndmf9/VHjTYwawn3kmZWya5ErFAsXQ6c0U0noB1LKAiA==
+
+"@cornerstonejs/codec-openjpeg@^0.1.0":
+  version "0.1.1"
+  resolved "https://registry.npmmirror.com/@cornerstonejs/codec-openjpeg/-/codec-openjpeg-0.1.1.tgz#5bd1c52a33a425299299e970312731fa0cc2711b"
+  integrity sha512-HOMMOLV6xy8O/agNGGvrl0a8DwShpBvWxAzEzv2pqq12d3r5z/3MyIgNA3Oj/8bIBVvvVXxh9RX7rMDRHJdowg==
 
 "@hapi/address@2.x.x":
   version "2.1.4"
@@ -1976,6 +1998,13 @@ async-limiter@~1.0.0:
   resolved "https://registry.npmmirror.com/async-limiter/-/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
   integrity sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==
 
+async-validator@~1.8.1:
+  version "1.8.5"
+  resolved "https://registry.npmmirror.com/async-validator/-/async-validator-1.8.5.tgz#dc3e08ec1fd0dddb67e60842f02c0cd1cec6d7f0"
+  integrity sha512-tXBM+1m056MAX0E8TL2iCjg8WvSyXu0Zc8LNtYqrVeyoL3+esHRZ4SieE9fKQyyU09uONjnMEjrNBMqT0mbvmA==
+  dependencies:
+    babel-runtime "6.x"
+
 async@0.9.x:
   version "0.9.2"
   resolved "https://registry.npmmirror.com/async/-/async-0.9.2.tgz#aea74d5e61c1f899613bf64bda66d4c78f2fd17d"
@@ -2040,6 +2069,11 @@ babel-eslint@^10.1.0:
     eslint-visitor-keys "^1.0.0"
     resolve "^1.12.0"
 
+babel-helper-vue-jsx-merge-props@^2.0.0:
+  version "2.0.3"
+  resolved "https://registry.npmmirror.com/babel-helper-vue-jsx-merge-props/-/babel-helper-vue-jsx-merge-props-2.0.3.tgz#22aebd3b33902328e513293a8e4992b384f9f1b6"
+  integrity sha512-gsLiKK7Qrb7zYJNgiXKpXblxbV5ffSwR0f5whkPAaBAR4fhi6bwRZxX9wBlIc5M/v8CCkXUbXZL4N/nSE97cqg==
+
 babel-loader@^8.1.0:
   version "8.2.3"
   resolved "https://registry.npmmirror.com/babel-loader/-/babel-loader-8.2.3.tgz#8986b40f1a64cacfcb4b8429320085ef68b1342d"
@@ -2080,6 +2114,14 @@ babel-plugin-polyfill-regenerator@^0.3.0:
   integrity sha512-Y2B06tvgHYt1x0yz17jGkGeeMr5FeKUu+ASJ+N6nB5lQ8Dapfg42i0OVrf8PNGJ3zKL4A23snMi1IRwrqqND7A==
   dependencies:
     "@babel/helper-define-polyfill-provider" "^0.3.1"
+
+babel-runtime@6.x:
+  version "6.26.0"
+  resolved "https://registry.npmmirror.com/babel-runtime/-/babel-runtime-6.26.0.tgz#965c7058668e82b55d7bfe04ff2337bc8b5647fe"
+  integrity sha512-ITKNuq2wKlW1fJg9sSW52eepoYgZBggvOAHC0u/CYu/qxQ9EVzThCgR69BnSXLHjy2f7SY5zaQ4yt7H9ZVxY2g==
+  dependencies:
+    core-js "^2.4.0"
+    regenerator-runtime "^0.11.0"
 
 balanced-match@^1.0.0:
   version "1.0.2"
@@ -2973,6 +3015,11 @@ core-js-compat@^3.20.2, core-js-compat@^3.21.0, core-js-compat@^3.6.5:
     browserslist "^4.19.1"
     semver "7.0.0"
 
+core-js@^2.4.0:
+  version "2.6.12"
+  resolved "https://registry.npmmirror.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
+  integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
+
 core-js@^3.6.5:
   version "3.21.1"
   resolved "https://registry.npmmirror.com/core-js/-/core-js-3.21.1.tgz#f2e0ddc1fc43da6f904706e8e955bc19d06a0d94"
@@ -2987,6 +3034,35 @@ core-util-is@~1.0.0:
   version "1.0.3"
   resolved "https://registry.npmmirror.com/core-util-is/-/core-util-is-1.0.3.tgz#a6042d3634c2b27e9328f837b965fac83808db85"
   integrity sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ==
+
+cornerstone-core@^2.6.1:
+  version "2.6.1"
+  resolved "https://registry.npmmirror.com/cornerstone-core/-/cornerstone-core-2.6.1.tgz#f9a29a49057f286e8c969c7020e979d567449d42"
+  integrity sha512-LAXjXwNnK2W65ZxpE7phVLjbijkYUrAQIGv5xqKjK8+dmIGlBxqvPHnyGwEqVDyKOWVrpXP6ymUPwrGGRwzgMg==
+
+cornerstone-math@0.1.9, cornerstone-math@^0.1.9:
+  version "0.1.9"
+  resolved "https://registry.npmmirror.com/cornerstone-math/-/cornerstone-math-0.1.9.tgz#7ce5509e8b9f465b01f7c548470725e7569859fc"
+  integrity sha512-NxdooV73asEQgav1S+0e+a4K+W3CXJdLXyFkVN24qqCtmIpzZzwtw3F9KWPCekzSAJmbhtQ3HicOQj3d4vRtuw==
+
+cornerstone-tools@^6.0.6:
+  version "6.0.6"
+  resolved "https://registry.npmmirror.com/cornerstone-tools/-/cornerstone-tools-6.0.6.tgz#61db62a9eb3d197acea297f60fc610c918a38be0"
+  integrity sha512-t+yksdByljoP/X7CBHfSzmZmLk1o9QCg4CmzspIG6mkRRmZeMf5hxgaM3u0pBdjK1JyxZwzMbavbyl5DG7KxpA==
+  dependencies:
+    "@babel/runtime" "7.1.2"
+    cornerstone-math "0.1.9"
+
+cornerstone-wado-image-loader@^4.1.2:
+  version "4.1.2"
+  resolved "https://registry.npmmirror.com/cornerstone-wado-image-loader/-/cornerstone-wado-image-loader-4.1.2.tgz#89527e6793c7e2b66a4d8a5db2ca5c51b52fb1bd"
+  integrity sha512-9dtCgU6Lidp5wY914rNUckLqNHmjvIzL3uYU8b3EMqb9+tfTRQINm0kJq/rgchiyxnc1AW3FhrDf9DYgcfspyQ==
+  dependencies:
+    "@cornerstonejs/codec-charls" "^0.1.1"
+    "@cornerstonejs/codec-libjpeg-turbo-8bit" "^0.0.7"
+    "@cornerstonejs/codec-openjpeg" "^0.1.0"
+    dicom-parser "^1.8.9"
+    pako "^2.0.4"
 
 cosmiconfig@^5.0.0, cosmiconfig@^5.2.1:
   version "5.2.1"
@@ -3340,7 +3416,7 @@ deep-is@^0.1.3, deep-is@~0.1.3:
   resolved "https://registry.npmmirror.com/deep-is/-/deep-is-0.1.4.tgz#a6f2dce612fadd2ef1f519b73551f17e85199831"
   integrity sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==
 
-deepmerge@^1.5.2:
+deepmerge@^1.2.0, deepmerge@^1.5.2:
   version "1.5.2"
   resolved "https://registry.npmmirror.com/deepmerge/-/deepmerge-1.5.2.tgz#10499d868844cdad4fee0842df8c7f6f0c95a753"
   integrity sha512-95k0GDqvBjZavkuvzx/YqVLv/6YYa17fz6ILMSf7neqQITCPbnfEnQvEgMPNjH4kgobe7+WIL0yJEHku+H3qtQ==
@@ -3484,6 +3560,11 @@ detect-node@^2.0.4:
   version "2.1.0"
   resolved "https://registry.npmmirror.com/detect-node/-/detect-node-2.1.0.tgz#c9c70775a49c3d03bc2c06d9a73be550f978f8b1"
   integrity sha512-T0NIuQpnTvFDATNuHN5roPwSBG83rFsuO+MXXH9/3N1eFbn4wcPjttvjMLEPWJ0RGUYgQE7cGgS3tNxbqCGM7g==
+
+dicom-parser@^1.8.13, dicom-parser@^1.8.9:
+  version "1.8.13"
+  resolved "https://registry.npmmirror.com/dicom-parser/-/dicom-parser-1.8.13.tgz#ce1122bf4363f21b09450e5a47e85ad323926daa"
+  integrity sha512-8M53FPHS4zM3zvu5fdIWdatqrjpiG2+2M6RJ0IxwqLF4gvCYRsqUIusxYaOiNU0sWaptUpnXeZiXunP0LOIcQw==
 
 didyoumean@^1.2.1:
   version "1.2.2"
@@ -3691,6 +3772,18 @@ elegant-spinner@^1.0.1:
   version "1.0.1"
   resolved "https://registry.npmmirror.com/elegant-spinner/-/elegant-spinner-1.0.1.tgz#db043521c95d7e303fd8f345bedc3349cfb0729e"
   integrity sha512-B+ZM+RXvRqQaAmkMlO/oSe5nMUOaUnyfGYCEHoR8wrXsZR2mA0XVibsxV1bvTwxdRWah1PkQqso2EzhILGHtEQ==
+
+element-ui@^2.15.0:
+  version "2.15.6"
+  resolved "https://registry.npmmirror.com/element-ui/-/element-ui-2.15.6.tgz#c9609add35af5a686a4b7685dc1d757c75e01df3"
+  integrity sha512-rcYXEKd/j2G0AgficAOk1Zd1AsnHRkhmrK4yLHmNOiimU2JfsywgfKUjMoFuT6pQx0luhovj8lFjpE4Fnt58Iw==
+  dependencies:
+    async-validator "~1.8.1"
+    babel-helper-vue-jsx-merge-props "^2.0.0"
+    deepmerge "^1.2.0"
+    normalize-wheel "^1.0.1"
+    resize-observer-polyfill "^1.5.0"
+    throttle-debounce "^1.0.1"
 
 elliptic@^6.5.3:
   version "6.5.4"
@@ -4798,6 +4891,11 @@ gzip-size@^5.0.0:
   dependencies:
     duplexer "^0.1.1"
     pify "^4.0.1"
+
+hammerjs@^2.0.8:
+  version "2.0.8"
+  resolved "https://registry.npmmirror.com/hammerjs/-/hammerjs-2.0.8.tgz#04ef77862cff2bb79d30f7692095930222bf60f1"
+  integrity sha512-tSQXBXS/MWQOn/RKckawJ61vvsDpCom87JgxiYdGwHdOa0ht0vzUWDlfioofFCRU0L+6NGDt6XzbgoJvZkMeRQ==
 
 handle-thing@^2.0.0:
   version "2.0.1"
@@ -6787,6 +6885,11 @@ normalize-url@^3.0.0:
   resolved "https://registry.npmmirror.com/normalize-url/-/normalize-url-3.3.0.tgz#b2e1c4dc4f7c6d57743df733a4f5978d18650559"
   integrity sha512-U+JJi7duF1o+u2pynbp2zXDW2/PADgC30f0GsHZtRh+HOcXHnw137TrNlyxxRvWW5fjKd3bcLHPxofWuCjaeZg==
 
+normalize-wheel@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmmirror.com/normalize-wheel/-/normalize-wheel-1.0.1.tgz#aec886affdb045070d856447df62ecf86146ec45"
+  integrity sha512-1OnlAPZ3zgrk8B91HyRj+eVv+kS5u+Z0SCsak6Xil/kmgEia50ga7zfkumayonZrImffAxPU/5WcyGhzetHNPA==
+
 npm-run-path@^2.0.0:
   version "2.0.2"
   resolved "https://registry.npmmirror.com/npm-run-path/-/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
@@ -7123,6 +7226,11 @@ pac-resolver@^5.0.0:
     degenerator "^3.0.1"
     ip "^1.1.5"
     netmask "^2.0.1"
+
+pako@^2.0.4:
+  version "2.0.4"
+  resolved "https://registry.npmmirror.com/pako/-/pako-2.0.4.tgz#6cebc4bbb0b6c73b0d5b8d7e8476e2b2fbea576d"
+  integrity sha512-v8tweI900AUkZN6heMU/4Uy4cXRc2AYNRggVmTR+dEncawDJgCdLMximOVA2p4qO57WMynangsfGRb5WD6L1Bg==
 
 pako@~1.0.5:
   version "1.0.11"
@@ -8033,6 +8141,16 @@ regenerate@^1.4.2:
   resolved "https://registry.npmmirror.com/regenerate/-/regenerate-1.4.2.tgz#b9346d8827e8f5a32f7ba29637d398b69014848a"
   integrity sha512-zrceR/XhGYU/d/opr2EKO7aRHUeiBI8qjtfHqADTwZd6Szfy16la6kqD0MIUs5z5hx6AaKa+PixpPrR289+I0A==
 
+regenerator-runtime@^0.11.0:
+  version "0.11.1"
+  resolved "https://registry.npmmirror.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
+  integrity sha512-MguG95oij0fC3QV3URf4V2SDYGJhJnJGqvIIgdECeODCT98wSWDAJ94SSuVpYQUoTcGUIL6L4yNB7j1DFFHSBg==
+
+regenerator-runtime@^0.12.0:
+  version "0.12.1"
+  resolved "https://registry.npmmirror.com/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
+  integrity sha512-odxIc1/vDlo4iZcfXqRYFj0vpXFNoGdKMAUieAlFYO6m/nl5e9KR/beGf41z4a1FI+aQgtjhuaSlDxQ0hmkrHg==
+
 regenerator-runtime@^0.13.4:
   version "0.13.9"
   resolved "https://registry.npmmirror.com/regenerator-runtime/-/regenerator-runtime-0.13.9.tgz#8925742a98ffd90814988d7566ad30ca3b263b52"
@@ -8178,6 +8296,11 @@ requires-port@^1.0.0:
   version "1.0.0"
   resolved "https://registry.npmmirror.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
   integrity sha512-KigOCHcocU3XODJxsu8i/j8T9tzT4adHiecwORRQ0ZZFcp7ahwXuRU1m+yuO90C5ZUyGeGfocHDI14M3L3yDAQ==
+
+resize-observer-polyfill@^1.5.0:
+  version "1.5.1"
+  resolved "https://registry.npmmirror.com/resize-observer-polyfill/-/resize-observer-polyfill-1.5.1.tgz#0e9020dd3d21024458d4ebd27e23e40269810464"
+  integrity sha512-LwZrotdHOo12nQuZlHEmtuXdqGoOD0OhaxopaNFxWzInpEgaLWoVuAMbTzixuosCx2nEG58ngzW3vxdWoxIgdg==
 
 resolve-cwd@^2.0.0:
   version "2.0.0"
@@ -9164,6 +9287,11 @@ thread-loader@^2.1.3:
     loader-utils "^1.1.0"
     neo-async "^2.6.0"
 
+throttle-debounce@^1.0.1:
+  version "1.1.0"
+  resolved "https://registry.npmmirror.com/throttle-debounce/-/throttle-debounce-1.1.0.tgz#51853da37be68a155cb6e827b3514a3c422e89cd"
+  integrity sha512-XH8UiPCQcWNuk2LYePibW/4qL97+ZQ1AN3FNXwZRBNPPowo/NRU5fAlDCSNBJIYCKbioZfuYtMhG4quqoJhVzg==
+
 through2@^2.0.0:
   version "2.0.5"
   resolved "https://registry.npmmirror.com/through2/-/through2-2.0.5.tgz#01c1e39eb31d07cb7d03a96a70823260b23132cd"
@@ -9671,7 +9799,7 @@ vue@^2.6.11:
   resolved "https://registry.npmmirror.com/vue/-/vue-2.6.14.tgz#e51aa5250250d569a3fbad3a8a5a687d6036e235"
   integrity sha512-x2284lgYvjOMj3Za7kqzRcUSxBboHqtgRE2zlos1qWaOye5yUmHn42LB1250NJBLRwEcdrB0JRwyPTEPhfQjiQ==
 
-vuex@^3.4.0:
+vuex@^3.5.1:
   version "3.6.2"
   resolved "https://registry.npmmirror.com/vuex/-/vuex-3.6.2.tgz#236bc086a870c3ae79946f107f16de59d5895e71"
   integrity sha512-ETW44IqCgBpVomy520DT5jf8n0zoCac+sxWnn+hMe/CzaSejb/eVw2YToiXYX+Ex/AuHHia28vWTq4goAexFbw==

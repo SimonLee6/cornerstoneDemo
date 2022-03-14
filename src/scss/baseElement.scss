@@ -1,0 +1,194 @@
+/*
+ * @Description: element公共css
+ * @Date: 2021-07-26 16:44:48
+ */
+
+/** el-button 按钮 **/
+.el-button {
+	padding: 8px 15px;
+	border: 0;
+	border-radius: 2px;
+}
+
+.btn-default {
+	background: #fff;
+	color: #999999;
+	border: 1px solid #ccc;
+	&:hover,
+	&:focus {
+		background: #fff;
+		color: #999999;
+		border: 1px solid #ccc;
+	}
+}
+.el-button--primary,
+.btn-primary {
+	background: $theme-blue-color;
+	color: #fff;
+	&:hover,
+	&:focus {
+		background: $theme-blue-color;
+		color: #fff;
+	}
+}
+.btn-danger {
+	background: #f56c6c;
+	color: #fff;
+	&:hover,
+	&:focus {
+		background: #f56c6c;
+		color: #fff;
+	}
+}
+@each $btn-class in
+	btn-default,
+	btn-primary,
+	btn-danger,
+	el-button--primary{
+	.#{$btn-class} {
+		&:hover,
+		&:focus {
+			// @extend .#{$btn-class};
+		}
+		&.is-disabled {
+			background: #EBEEF5 !important;
+			color: #C0C4CC !important;
+			border: 0 !important;
+			&:hover,
+			&:focus {
+				background: #EBEEF5;
+			}
+		}
+	}
+}
+
+/* 小箭头 */
+.el-input
+.el-collapse,
+.el-select,
+.el-input-number__increase {
+	.el-icon-arrow-up {
+		color: #666 !important;
+		&::before {
+			content: "\e78f";
+		}
+	}
+}
+.el-input,
+.el-collapse,
+.el-submenu__title,
+.el-select {
+	.el-icon-arrow-right {
+		color: #666 !important;
+		&::before {
+			content: "\e791";
+		}
+	}
+}
+.el-input-number__increase .el-icon-arrow-up {
+	// color: #666 !important;
+	transform: scale(1) !important;
+	&::before {
+		content: "\e78f";
+	}
+}
+.el-input-number__decrease .el-icon-arrow-down {
+	// color: #666 !important;
+	transform: scale(1) !important;
+	&::before {
+		content: "\e790";
+	}
+}
+
+
+/* 各种输入框 */
+.el-date-editor.el-input {
+	@include wh($input-W, $input-H);
+}
+.el-input__inner {
+	@include wh($input-W, $input-H);
+	line-height: $input-H;
+	box-sizing: border-box;
+	border-radius: 2px;
+}
+.el-picker-panel__body {
+	.el-input__inner {
+		width: 100%;
+	}
+}
+
+/* 各种框icon */
+.el-input__icon {
+	line-height: 100%;
+}
+
+/* 日期选择器 */
+.el-date-editor {
+	.el-range-separator {
+		width: 7%;
+		line-height: 25px;
+	}
+}
+
+
+/* 分页 */
+.el-pagination {
+	text-align: right;
+	.el-input__inner {
+		width: 100%;
+	}
+	.el-pager {
+		.number {
+			min-width: 26px;
+			@include wh(26px, 26px);
+			line-height: 26px;
+			border-radius: 2px;
+		}
+		.number.active {
+			background: $theme-blue-color;
+			color: #fff;
+		}
+	}
+}
+
+// 标签下拉框
+.option-tag {
+	display: flex;
+	align-items: center;
+	.option-icon {
+		@include wh(30px, 25px);
+		text-align: center;
+		line-height: 25px;
+		margin-right: 5px;
+		.option-img {
+			@include wh(25px, 25px);
+		}
+	}
+}
+//计数器
+.el-input-number {
+	width: 248px;
+	line-height: 30px;
+	height: 28px;
+	.el-input-number__increase{
+		line-height: 15px!important;
+	}
+	.el-input-number__decrease{
+		line-height: 15px!important;
+		bottom:-3px!important;
+	}
+}
+
+// checkbox
+.el-radio__input.is-checked .el-radio__inner,
+.el-checkbox__input.is-checked .el-checkbox__inner,
+.el-checkbox__input.is-indeterminate .el-checkbox__inner {
+	background: $theme-blue-color;
+	border-color: $theme-blue-color;
+}
+
+.el-radio__input.is-checked+.el-radio__label {
+	color: $theme-blue-color;
+}
+
+
